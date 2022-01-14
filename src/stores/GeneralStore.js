@@ -14,6 +14,8 @@ export class GeneralStore {
     }
 
     handleInput = (name, value) => {
+        if (name === "numPeople")
+            value = parseInt(value)
         this[name] = value
     }
 }

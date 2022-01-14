@@ -1,4 +1,25 @@
+.numbersData {
+    text-align: center;
+}
+
+.inputs input {
+    margin: 20px;
+}
 
 .conditional {
-  text-decoration: line-through
+    text-decoration: line-through
+}
+
+.reservation {
+    border: 1px solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+.seated {
+    background-color: darkkhaki;
+}
+
+button {
+    margin: 5px;
 }

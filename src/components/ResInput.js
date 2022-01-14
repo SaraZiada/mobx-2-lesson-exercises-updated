@@ -8,7 +8,7 @@ class ResInput extends Component {
     }
     render () {
         return (
-            <div>
+            <div className='inputs'>
                 <input onChange = {this.inputHandler}
                         name = "name"
                         placeholder = "Name"/>
@@ -21,5 +21,4 @@ class ResInput extends Component {
     }
 }
 
-//adding our GeneralStore as a prop of the ResInput component
 export default inject("GeneralStore")(observer(ResInput))
